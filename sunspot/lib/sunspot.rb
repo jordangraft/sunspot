@@ -379,7 +379,7 @@ module Sunspot
     # and Sunspot::DSL::StandardQuery for the full API presented inside the
     # block.
     #
-    def search(*types, &block)
+    def solr_search(*types, &block)
       session.search(*types, &block)
     end
 
